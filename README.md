@@ -8,6 +8,8 @@ Google DataStudio(和名: データポータル)のスクリーンショット�
   - `clasp push` で自分のAppsScriptのコードを書き換える
 - BotScopeの `chat:write`, `files:write` 権限を持ったSlackのApp を用意します
   - ScriptProperty の `SLACK_TOKEN` に SlackAppの `Bot User OAuth Token` を保存する
+    - 新エディタからはScriptProperty編集できないので、旧エディタに変更するといいと思います
+    - `ファイル > プロジェクトのプロパティ > スクリプトのプロパティ タブ` 
   - Botの作り方は各自検索するといいと思います
 - `spreadsheet.js` の `createConfigSpreadsheet()` を実行する
   - スクリプト実行時に、権限が求められるので承認する
